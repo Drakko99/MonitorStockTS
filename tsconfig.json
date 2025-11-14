@@ -1,5 +1,4 @@
 {
-  // Configuración simple para un script Node + TypeScript (CommonJS)
   "compilerOptions": {
     // Dónde está el código fuente y dónde saldrá compilado
     "rootDir": "./src",
@@ -10,18 +9,13 @@
     "module": "commonjs",
     "moduleResolution": "node",
 
-    // Tipos de Node (para process, __dirname, etc.)
     "types": ["node"],
 
     // Opciones de calidad
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-
-    // Si quieres, luego puedes volver a activar estas:
-    // "noUncheckedIndexedAccess": true,
-    // "exactOptionalPropertyTypes": true
+    "forceConsistentCasingInFileNames": true,
   },
   "include": ["src"]
 }
