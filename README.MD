@@ -40,7 +40,7 @@ Cuando detecta un cambio de estado **de sin stock ➜ a en stock**, muestra una 
 1. Clona el repositorio y entra en la carpeta:
 
    ```bash
-   git clone https://github.com/TU-USUARIO/MonitorStockTS.git
+   git clone https://github.com/Drakko99/MonitorStockTS
    cd MonitorStockTS
    ```
 
